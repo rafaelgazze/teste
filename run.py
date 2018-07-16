@@ -6,22 +6,22 @@ input  = {
   "Account": {
     "cardIsActive": True,
     "limit": 100,
-    "blacklist": ["Aaaaa","Cielo"],
+    "blacklist": ["Abc1234","Cielo"],
     "isWhielisted": True
   },
   "Transaction":{
-    "merchant": "Abc123",
-    "amount": 110,
+    "merchant": "Abc1234",
+    "amount": 95,
     "time": "2018-07-15 09:01:50"
   },
   "LastTransactions": [
     {
-      "merchant": "Abc1234",
+      "merchant": "Abc123",
       "amount": 100,
       "time": "2018-07-15 09:01:00"
     },
     {
-      "merchant": "Abc1234",
+      "merchant": "Abc123",
       "amount": 100,
       "time": "2018-07-15 09:00:00"
     }
