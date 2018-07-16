@@ -14,11 +14,11 @@ The output should consist of whether the transaction was authorized or not, the 
 
 You should try to implement as many rules as you can, but can still submit even if you don't implement them all.
 
-1. The transaction amount should not be above limit
-2. No transaction should be approved when the card is blocked
-3. The first transaction shouldn't be above 90% of the limit
-4. There should not be more than 10 transactions on the same merchant
-5. Merchant blacklist
+1. The transaction amount should not be above limit - OK
+2. No transaction should be approved when the card is blocked - OK
+3. The first transaction shouldn't be above 90% of the limit - OK
+4. There should not be more than 10 transactions on the same merchant - OK
+5. Merchant blacklist - Ok
 6. There should not be more than 3 transactions on a 2 minutes interval
 
 ### Schema
