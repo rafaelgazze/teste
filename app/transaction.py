@@ -2,7 +2,7 @@ from app.rules.ruleblacklistmerchant import MerchantBlackList
 from app.rules.rulecardblocked import CardBlocked 
 from app.rules.rulelimit import LimitAboveTransaction 
 from app.rules.rulefirsttransaction import FirstTransaction90PercentLimit
-from app.rules.rulesamemerchant10transactions import More10TransactionsSameMerchant
+from app.rules.rulesmerchant10transactions import More10TransactionsSameMerchant
 from app.rules.ruletwominutestransactions import More3Transactions2MinutesInterval
 
 
